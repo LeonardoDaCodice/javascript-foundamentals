@@ -1,7 +1,5 @@
-console.log("Hello Salvatore");
+let nome = "Mario";
+let isStudente = true;
 
 
-function cambiaTesto(){
-    let nome = "Salvatore";
-    document.getElementById("titolo").innerText = "Ciao " + nome;
-}
+console.log(nome + " " +eta);
