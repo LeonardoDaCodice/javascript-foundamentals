@@ -1,8 +1,15 @@
-let auto = {
-    marca:"BMW",
-    modello:"Serie 1",
-    anno:2020
-};
+console.log("JavaScript collegato correttamente!");
 
-console.log(auto);
-console.log(auto.marca);
+
+function salutaUtente(){
+
+    let nome = document.getElementById("nomeInput").value;
+
+    let utente = {
+        nome : nome
+    };
+
+
+    document.getElementById("output").innerText="Ciao "+utente.nome;
+
+}

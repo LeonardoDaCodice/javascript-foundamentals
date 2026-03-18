@@ -1,19 +1,29 @@
 <!DOCTYPE html>
+
 <html lang="it">
 
 <head>
     <meta charset="utf-8">
-    <title>JS Basics</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript Fundamentals</title>
 </head>
 
 <body>
 
-    <h1 id="titolo">JavaScript Start</h1>
+    <h1 id="titolo">Mini App JavaScript</h1>
 
-    <button onclick="cambiaTesto()">Cambia testo</button>
 
-    <script src="script.js"></script>
+    <!-- Input utente -->
+    <input type="text" id="nomeInput" placeholder="Inserisci il tuo nome">
 
+    <!-- Bottone -->
+    <button onClick="salutaUtente()">Invia</button>
+
+    <!-- Output -->
+    <h2 id="output"></h2>
+
+    <!-- Collegamento JS -->
+    <script src="script.js" async defer></script>
 </body>
 
 </html>
