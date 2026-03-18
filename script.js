@@ -1,6 +1,4 @@
-function saluta(nome){
-    return "Ciao "+nome;
+function cambiaTesto(){
+    let nome = "Salvatore"
+    document.getElementById("titolo").innerText="Ciao "+nome;
 }
-
-
-console.log(saluta("Salvatore"));
