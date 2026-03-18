@@ -1,7 +1,8 @@
-let persona ={
-    nome:"Mario",
-    eta: 25,
-    isStudente: true
+let auto = {
+    marca:"BMW",
+    modello:"Serie 1",
+    anno:2020
 };
-console.log(persona);
-console.log(persona.nome);
+
+console.log(auto);
+console.log(auto.marca);
