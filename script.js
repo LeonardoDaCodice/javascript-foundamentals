@@ -1,5 +1,7 @@
-let nome = "Mario";
-let isStudente = true;
+let eta = 25;
 
-
-console.log(nome + " " +eta);
+if (eta >= 18){
+    console.log("Maggiorenne");
+}else{
+    console.log("Minorenne");
+}
